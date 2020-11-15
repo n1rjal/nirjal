@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Nirjal Paudel</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<div id="page-wrapper">
+
+				<header id="header" class="alt">
+					<h1><a href="index.html">Nirjal Paudel</a></h1>
+					<nav>
+						<a href="#menu">Menu</a>
+					</nav>
+				</header>
+
+				<nav id="menu">
+					<div class="inner">
+						<h2>Menu</h2>
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="#project">Projects</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+						<a href="#" class="close">Close</a>
+					</div>
+				</nav>
+
+				<section id="banner">
+					<div class="inner">
+						<div class="logo"><img style="width:200px;border-radius: 50%;" src="./images/n1rjal.jpg"></span></div>
+						<h2>Nirjal Paudel</h2>
+						<p>
+							Frontend Web Developer | Backend Web Developer | FullStack Web Developer
+						</p>
+					</div>
+				</section>
+
+				<section id="wrapper"  id="project" >
+						<section id="one" class="wrapper spotlight style1">
+							<div class="inner">
+								<a href="#" class="image"><img class="project-photo" src="images/pic01.jpg" alt="" /></a>
+								<div class="content">
+									<h2 class="major">NetFlix Clone</h2>
+									<p>
+										A netflix clone built using React JS.
+										This Project utilizes various aspects of reactjs
+										like react-router, fetch API calls, etc.
+										Click below for live Demo.
+									</p>
+									<a href="#"  class="special fa fa-globe">Deployed</a>
+									<a href="#" class="special fa fa-github">Github</a>
+								</div>
+							</div>
+						</section>
+
+						<section id="two" class="wrapper alt spotlight style2">
+							<div class="inner">
+								<a href="#" class="image"><img src="images/images.png" alt="" /></a>
+								<div class="content">
+									<h2 class="major">HamroBakas</h2>
+									<p>An eCommerce solution built using Django, HTML5 and bootstrap. A react based Frontend is being built
+										The Ecommerce solution has it's REST API, JWT based authorization and cookie based session Authentication
+									</p>
+									<a href="#" class="special">Github Private Repo</a>
+									<a href="https://www.hamrobakas.com" class="special">Live</a>
+								</div>
+							</div>
+						</section>
+
+						<section id="three" class="wrapper spotlight style3">
+							<div class="inner">
+								<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+								<div class="content">
+									<h2 class="major">Covid 19 API</h2>
+									<p>Covid 19 API based on worldometer. The program uses techniques of web scrapping and 
+										displays it as REST JSON output. Built using Django and Beautiful Soup.
+									</p>
+									<a href="#" class="special">Private Repo</a>
+									<a href="http://nirjal.herokuapp.com/covid19/?country=nepal&format=json" class="special">Live Stats of Nepal</a>
+								</div>
+							</div>
+						</section>
+				</section>
+
+				<section id="footer">
+					<div class="inner">
+						<h2 class="major">Lets Talk</h2>
+						<p>
+							
+							I want to be freelancer. I work with fullstack web developement and web scrapping.
+							I might volunteer for your project too. 
+							I love contributing to Open Source projects too. Let's talk
+						</p>
+						<form method="post" id="contact" action="https://nirjal.herokuapp.com/email/">
+							<div class="fields">
+								<div class="field">
+									<label for="name">Name</label>
+									<input type="text" name="name" id="name" />
+								</div>
+								<div class="field">
+									<label for="email">Email</label>
+									<input type="email" name="email" id="email" />
+								</div>
+								<div class="field">
+									<label for="email">Phone</label>
+									<input type="text" name="phone" id="phone" />
+								</div>
+								<!-- msgtype=methoddict.get("msgtype") -->
+								<input type="hidden" value="contact" name="msgtype" />
+								<div class="field">
+									<label for="message">Message</label>
+									<textarea name="msg" id="msg" rows="4"></textarea>
+								</div>
+							</div>
+							<input type="hidden" id="redirect" name="redirect" />
+							<ul class="actions">
+								<li><input type="submit" value="Send Message" /></li>
+							</ul>
+
+						</form>
+
+						<ul class="contact">
+							<li class="icon solid fa-home">
+								Pepsicola<br />
+								Kathmandu, Nepal
+							</li>
+							<li class="icon solid fa-phone"><a href="tel:+9779863948081">+9779863948081</a></li>
+							<li class="icon solid fa-envelope"><a href="mailto:nirjalpaudel54312@gmail.com">nirjalpaudel54312@gmail.com</a></li>
+							<li class="icon brands fa-github"><a href="https://github.com/n1rjal">github.com/n1rjal</a></li>
+							<li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/nirjalpaudel/">linkedin.com/in/nirjalpaudel</a></li>
+						</ul>
+					</div>
+				</section>
+		</div>
+
+		<script>
+			document.getElementById("redirect").value = window.location;
+		</script>
+		<script src="./automate.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
